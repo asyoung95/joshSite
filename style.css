@@ -1,0 +1,172 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	margin: 0 0 50px; /* bottom = footer height */
+	padding: 0px;
+	z-index: 1;
+	background-color: #BFBFBF;
+}
+
+.abs {
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+}
+
+.fixer {
+	position: fixed;
+	left: 50%;
+}
+
+#banner {
+	position: relative;
+	left: -50%;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	z-index: -1;
+}
+
+#face img{
+	width: 210px;
+	height: 210px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
+.landing {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-size: 28px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.landing h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 50px;
+}
+
+.landing h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.button {
+	display: inline-block;
+}
+
+.button img {
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin: 0px 15px 0px 15px;
+}
+
+.button img:hover {
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.container {
+	margin: 0px;
+	width: 100%;
+	/*background-color: #BFBFBF;*/
+	background-color: #2F7FB7;
+	font-family: "Trebuchet MS";
+}
+
+.block {
+	padding: 50px;
+	margin: 0px;
+}
+
+#aboutMe {
+	background-color: #5193C1;
+}
+
+#soundcloud {
+	background-color: #ff7700;
+	/*text-align: right;*/
+}
+
+#soundcloud iframe {
+	right: 50%;
+	width: 600px;
+	height: 300px;
+}
+
+#pics {
+	background-color: #00A287;
+	clear:none;
+}
+
+table {
+	width: 80%;
+}
+
+td {
+	width: 33%;
+	padding: 15px;
+}
+
+#pics img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+td:hover {
+	padding-bottom: 25px;
+	padding-top: 5px;
+}
+
+#pics img:hover {
+	
+}
+
+#live {
+	background-color: #87E247;
+}
+
+#video {
+	background-color: #1339AC;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #BFBFBF;
+}
+
+footer p {
+	color: grey;
+    padding: 0px 40px 0px 40px;
+}
+
+footer .left {
+	float: left;
+}
+
+footer .right {
+	float: right;
+}
+
+footer a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	text-decoration: underline;
+}
