@@ -15,12 +15,10 @@ body {
 	top: 0px;
 	z-index: -1;
 }
-
 .fixer {
 	position: fixed;
 	left: 50%;
 }
-
 #banner {
 	position: relative;
 	left: -50%;
@@ -30,12 +28,6 @@ body {
 	z-index: -1;
 }
 
-#face img{
-	width: 210px;
-	height: 210px;
-	border: 1px solid black;
-	border-radius: 100%;
-}
 
 .landing {
 	font-family: 'Montserrat', sans-serif;
@@ -46,6 +38,13 @@ body {
 	margin-bottom: 0px;
 	font-size: 28px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.landing img{
+	width: 210px;
+	height: 210px;
+	border: 1px solid black;
+	border-radius: 100%;
 }
 
 .landing h1 {
@@ -79,8 +78,7 @@ body {
 .container {
 	margin: 0px;
 	width: 100%;
-	/*background-color: #BFBFBF;*/
-	background-color: #2F7FB7;
+	background-color: #BFBFBF;
 	font-family: "Trebuchet MS";
 }
 
@@ -90,12 +88,13 @@ body {
 }
 
 #aboutMe {
-	background-color: #5193C1;
+	background-color: #1E8BC3;
+	text-align: center;
 }
 
 #soundcloud {
-	background-color: #ff7700;
-	/*text-align: right;*/
+	background-color: #F89406;
+	text-align: center;
 }
 
 #soundcloud iframe {
@@ -105,7 +104,7 @@ body {
 }
 
 #pics {
-	background-color: #00A287;
+	background-color: #3FC380;
 	clear:none;
 }
 
@@ -133,11 +132,11 @@ td:hover {
 }
 
 #live {
-	background-color: #87E247;
+	background-color: #F64747;
 }
 
 #video {
-	background-color: #1339AC;
+	background-color: #336E7B;
 }
 
 footer {
